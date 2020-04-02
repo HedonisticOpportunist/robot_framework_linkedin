@@ -7,10 +7,11 @@ Resource          resource.robot
 
 *** Test Cases ***
 Valid Login
-    Open Browser To Login Page
-    Submit Credentials
-    Input Username    *****
-    Input Password    *****
-    Submit Credentials
-    Welcome Page Should Be Open
+    Go to LinkedIn Homepage
+    Submit User Credentials
+    Input Username    ******
+    Input Password    ******
+    Submit User Credentials
+    LinkedIn Dashboard Page Should Have Valid Title
+    Logout And Validate Title
     [Teardown]    Close Browser
