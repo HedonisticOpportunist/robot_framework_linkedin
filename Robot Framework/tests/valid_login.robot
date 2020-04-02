@@ -9,8 +9,8 @@ Resource          resource.robot
 Valid Login
     Open Browser To Login Page
     Submit Credentials
-    Input Username    hedonistic.opportunist@gmail.com
-    Input Password    holden22
+    Input Username    *****
+    Input Password    *****
     Submit Credentials
     Welcome Page Should Be Open
     [Teardown]    Close Browser
